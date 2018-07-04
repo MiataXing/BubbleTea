@@ -1,1 +1,14 @@
-<view></view>
+<view>
+  <view class='lobby-title'>
+    <!-- <text>
+      四不四傻，测试版第一版哪会有什么大厅，左上角返回吧
+    </text> -->
+    <text>
+      Choose a game and enter.
+    </text>
+    <button></button>
+    <button></button>
+    <button></button>
+    <button></button>
+  </view>
+</view>

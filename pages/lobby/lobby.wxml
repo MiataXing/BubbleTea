@@ -3,12 +3,15 @@
     <!-- <text>
       四不四傻，测试版第一版哪会有什么大厅，左上角返回吧
     </text> -->
-    <text>
-      Choose a game and enter.
+    <text class='lobby-text-title color-main'>
+      Choose a game to enter.
     </text>
-    <button></button>
-    <button></button>
-    <button></button>
-    <button></button>
+    <button class='game-option-button bgcolor-main color-white'
+      wx:for="{{games}}"
+      wx:for-index="idx"
+      wx:for-item="item"
+      wx:key="idx"
+      data-item="{{item}}"
+      bindtap='jumpToGamePage'>{{item.name}}</button>
   </view>
 </view>

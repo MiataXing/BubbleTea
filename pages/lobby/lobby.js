@@ -1,11 +1,12 @@
 // pages/lobby/lobby.js
+import { Games } from '../../utils/constants.js';
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  
+    games: [...Games],
   },
 
   /**
@@ -62,5 +63,12 @@ Page({
    */
   onShareAppMessage: function () {
   
-  }
+  },
+
+  jumpToGamePage: $event => {
+    let currentGame = $event.currentTarget.dataset.item;
+    wx.navigateTo({
+      url: '../fool/fool?name=' + currentGame.name,
+    });
+  },
 })

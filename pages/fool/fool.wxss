@@ -1,0 +1,30 @@
+/* pages/fool/fool.wxss */
+.fool-root-container {
+  width: 80vw;
+  height: 80vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.fool-root-container .fool-title-container {
+  text-align: center;
+}
+
+.fool-root-container .fool-title {
+  line-height: 200%;
+}
+
+.fool-root-container .fool-title-lg {
+  font-size: 2.5em;
+}
+
+.fool-root-container .fool-title-nm {
+  font-size: 2em;
+}
+
+.fool-root-container .fool-title-sm {
+  font-size: 1.5em;
+}

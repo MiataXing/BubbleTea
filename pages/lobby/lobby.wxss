@@ -2,4 +2,13 @@
 .lobby-title {
   width: 60vw;
   margin: auto;
+  text-align: center;
+}
+.lobby-title .lobby-text-title {
+  width: 100%;
+  line-height: 150%;
+}
+.lobby-title .game-option-button {
+  margin-top: 8px;
+  opacity: 0.8;
 }

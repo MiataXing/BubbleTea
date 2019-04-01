@@ -33,11 +33,12 @@ App({
       }
     })
   },
-  onShow: function () {
-    console.log("ready to show");
-  },
+  onShow: function () {},
+
   onHide: function () {},
+
   onError () {},
+  
   globalData: {
     userInfo: null
   }

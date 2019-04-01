@@ -1,0 +1,11 @@
+<view class='fool-root-container'>
+  <view class='fool-title-container'>
+    <text class='fool-title-lg color-main'>{{ foolLaughters }}</text>
+  </view>
+  <view class='fool-title-container'>
+    <text class='fool-title-nm color-main'>{{ foolTitle }}</text>
+  </view>
+  <view class='fool-title-container'>
+    <text class='fool-title fool-title-sm color-main'>{{ foolTitleEnd }}</text>
+  </view>
+</view>

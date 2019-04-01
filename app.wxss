@@ -7,4 +7,15 @@
   justify-content: space-between;
   padding: 200rpx 0;
   box-sizing: border-box;
-} 
+}
+
+.color-main {
+  color: #5A3DF4;
+}
+.color-white {
+  color: #FFFFFF;
+}
+
+.bgcolor-main {
+  background-color: #5A3DF4;
+}
